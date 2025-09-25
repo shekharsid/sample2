@@ -1,0 +1,66 @@
+Explain GANs.
+
+Explain Generative Adversarial Networks (GANs) for a university student who has completed an introductory course 
+in machine learning and understands basic neural networks. Focus on describing the two main components (Generator and Discriminator), 
+their adversarial training process, and how they interact to improve each other. Provide examples of their key applications
+_________________________________________________________________________________________________________
+
+If all cats are mammals, and all mammals are animals, then all cats are animals.
+If all birds lay eggs, and a robin is a bird, then a robin lays eggs.
+If a number is prime and greater than 2, then it is odd.
+The number 7 is prime. The number 7 is greater than 2. Is the number 7 odd?
+Yes.
+
+If all A are B, and all B are C, then all A are C.
+If all dogs bark, and Fido barks, then Fido is a dog.
+If a polygon has 4 equal sides, it is a rhombus.
+If a polygon is a rhombus, then its opposite angles are equal.
+A given polygon has 4 equal sides. Do its opposite angles need to be equal?
+
+_________________________________________________________________________________________________________
+
+A 2 kg ball is dropped from a height of 10 meters. Calculate its speed just before hitting the ground. (Assume g = 9.8 m/s^2, ignore air resistance.)
+
+
+A 2 kg ball is dropped from a height of 10 meters. Your goal is to calculate its speed just before hitting the ground,assuming no air resistance. 
+First, state the principle of conservation of mechanical energy and the relevant formulas for gravitational potential energy (GPE) and 
+kinetic energy (KE). Then, outline the steps to use this principle to find the final velocity. Perform the calculations, showing how you 
+derive the final speed from the initial potential energy. (Assume g = 9.8 m/s^2).
+
+_________________________________________________________________________________________________________
+
+What are the ethical issues with self-driving cars?
+
+
+You are a chief ethicist for an autonomous vehicle company, presenting a detailed analysis to a board of directors who are concerned 
+about public perception and liability. Discuss the "Trolley Problem" in the specific context of self-driving cars. 
+Analyze a scenario where the car's AI must make an unavoidable choice between two harmful outcomes:
+Swerving to hit a pedestrian who illegally jaywalked into the road.
+Continuing straight, leading to a collision that causes severe injury to the vehicle's passengers.
+Explain the ethical frameworks (e.g., utilitarianism vs. deontology) that apply to such a dilemma, and 
+the profound challenges in programming a 'moral' decision into an AI system, considering public trust, legal accountability, and diverse societal values. 
+Your explanation should highlight the complexity and lack of easy answers.
+
+_________________________________________________________________________________________________________
+
+Write Python code to evaluate and visualize a classification model.
+
+
+Generate Python code using scikit-learn and matplotlib to evaluate a binary classification model and visualize its performance.
+Your code should:
+Import necessary functions: accuracy_score, precision_score, recall_score, f1_score, roc_curve, auc from sklearn.metrics, and matplotlib.pyplot.
+Create two sample NumPy arrays: y_true (actual labels) and y_pred (predicted labels for a binary classification task), each containing at least 15 elements with 0s and 1s.
+Create a y_proba array (probability estimates for the positive class) for the same samples.
+Calculate and print the following metrics, clearly labeled: Accuracy Score, Precision Score, Recall Score, and F1 Score.
+Generate and display an ROC Curve plot for the model. Ensure the plot has a title, labeled axes, and displays the AUC (Area Under the Curve) value.
+Assume the positive class is represented by 1.
+
+_________________________________________________________________________________________________________
+
+What is geoengineering?
+
+
+You are an advisor to a global climate change policy panel, tasked with briefing international leaders on potential interventions. Discuss the concept of "climate engineering" (geoengineering) as a response to global warming. Focus on explaining two primary approaches:
+Solar Radiation Management (SRM) – e.g., stratospheric aerosol injection. Describe how it works and its potential benefits and major risks.
+Carbon Dioxide Removal (CDR) – e.g., direct air capture. Describe how it works and its potential benefits and major challenges.
+Conclude by summarizing the complex scientific, ethical, and geopolitical considerations that must be weighed before any large-scale implementation of these technologies.
