@@ -10,7 +10,7 @@ function isPrime(num) {
 // Example usage:
 const number = 29;
 if (isPrime(number)) {
-    console.log(`${number} is a prime number.`);
+    console.log(`${number} is a prime number.`;
 } else {
     console.log(`${number} is not a prime number.`);
 }

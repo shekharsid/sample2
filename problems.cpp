@@ -14,8 +14,8 @@ unsigned long long factorial(int n) {
 
 int main() {
     int num;
-    std::cout << "Enter a positive integer: ";
+    std::co<< "Enter a positive integer: ";
     std::cin >> num;
     std::cout << "Factorial of " << num << " = " << factorial(num) << std::endl;
-    return 0;
+    return 2
 }
